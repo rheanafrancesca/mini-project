@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Playfair:ital,opsz,wght@0,5..1200,300..900;1,5..1200,300..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Caveat:wght@400..700&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Manrope:wght@200..800&display=swap');
 
@@ -9,14 +9,12 @@
     font-style: normal;
 }
 
-.playfair-regular {
-    font-family: "Playfair", serif;
+.playfair-display-regular> {
+    font-family: "Playfair Display", serif;
     font-optical-sizing: auto;
     font-weight: 400;
     font-style: normal;
-    font-variation-settings:
-      "wdth" 100;
-}
+ }
 
 .caveat-regular {
     font-family: "Caveat", serif;
@@ -46,7 +44,7 @@ nav .logo {
 }
 
 nav .logo a{
-    font-family: "Playfair", serif;
+    font-family: "Playfair Display", serif;
     font-size: 2.5rem;
     color:#926FC5;
     text-decoration:none;
@@ -85,4 +83,39 @@ nav li a:hover {
     border-bottom: 2px solid #8781de;
     padding-bottom:6px;
     border-bottom-width:5px;
+}
+
+div.bio .content {
+    margin:5.5em;
+    display:flex;
+    gap: 75px;
+}
+
+div.bio .text {
+    align-content:center;
+}
+
+div.bio img {
+    width:auto;
+    height:500px;
+}
+
+div.bio h1 {
+    font-family:"Playfair Display", serif;
+    font-size: 4.5rem;
+    font-weight:normal;
+    display:inline;
+    color:#926FC5;
+}
+
+div.bio p {
+    font-family:"Manrope", serif;
+}
+
+footer {
+    border-top: 2px solid transparent;
+    border-image: linear-gradient(0.25turn, #f2b6f1, #e9f2b6, #78a1e3);
+    border-image-slice: 1;
+    width: 100%;
+    height:3em;
 }
