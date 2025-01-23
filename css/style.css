@@ -157,3 +157,47 @@ footer {
     height:3em;
     position:absolute;
 }
+
+#container1{
+    background-color: #CBB9E3;
+    width:100%;
+    height:auto;
+    position:fixed;
+    font-family:"Manrope", serif;
+}
+
+#container1 .content{
+    margin:3em;
+    display:flex;
+    gap:45px;
+}
+
+#container1 .text {
+    text-align:right;
+    align-self:flex-start;
+    padding-top:75px;
+}
+
+#container1 h1 {
+    font-family: "Caveat", serif;
+    font-size:6em;
+}
+
+#container1 h2{
+    font-family:"Playfair Display", serif;
+    font-weight:normal;
+    font-size:5em;
+}
+
+#container1 h1,h2{
+    display:inline;
+    color:white;
+
+}
+
+#container1 img {
+    width:auto;
+    height:500px;
+    margin-right:5em;
+    box-shadow: 20px 20px #e9f2b6;
+}
