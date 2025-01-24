@@ -29,7 +29,7 @@ body {
 
 nav {
     border-bottom: 2px solid transparent;
-    border-image: linear-gradient(0.25turn, #f2b6f1, #e9f2b6, #78a1e3);
+    border-image: linear-gradient(0.25turn, #f2b6f1, #E9EEC4, #78a1e3);
     border-image-slice: 1;
     width: 100%;
     display:flex;
@@ -75,7 +75,7 @@ nav li a.active {
     padding-bottom:6px;
 }
 
-nav li a:hover, .dropdown:hover .dropbtn {
+nav li a:hover, .dropdown:hover .dropbtn,  #container2 .subcontent .box a:hover{
     background-image: linear-gradient(90deg, #8781de, #78a1e3);
     color: transparent;
     background-size:100%;
@@ -151,9 +151,177 @@ div.bio p {
 
 footer {
     border-top: 2px solid transparent;
-    border-image: linear-gradient(0.25turn, #f2b6f1, #e9f2b6, #78a1e3);
+    border-image: linear-gradient(0.25turn, #f2b6f1, #E9EEC4, #78a1e3);
     border-image-slice: 1;
     width: 100%;
     height:3em;
     position:absolute;
+}
+
+#container1{
+    background-color: #CBB9E3;
+    width:100%;
+    height:600px;
+    position:relative;
+    font-family:"Manrope", serif;
+}
+
+#container1 .content{
+    padding:3em;
+    display:flex;
+    gap:45px;
+}
+
+#container1 .text {
+    text-align:right;
+    align-self:flex-start;
+    padding-top:75px;
+}
+
+#container1 h1 {
+    font-family: "Caveat", serif;
+    font-size:6em;
+}
+
+#container1 h2{
+    font-family:"Playfair Display", serif;
+    font-weight:normal;
+    font-size:5em;
+}
+
+#container1 h1,h2{
+    display:inline;
+    color:white;
+}
+
+#container1 img {
+    width:auto;
+    height:500px;
+    margin-right:5em;
+    box-shadow: 20px 20px #E9EEC4;
+}
+
+#container2 {
+    height:auto;
+    position:relative;
+    width:80%;
+    padding:45px;
+    margin:auto;
+}
+
+#container2 .content{
+    padding:60px;
+    display:flex;
+    flex-direction: column;
+    gap:30px;
+    font-family:"Manrope", serif;
+    border: 3px solid transparent;
+    border-image: linear-gradient(0.25turn, #f2b6f1, #E9EEC4, #78a1e3);
+    border-image-slice: 1;
+    border-radius:25px;
+}
+
+#container2 .text h1, #container3 h1 {
+    font-family:"Playfair Display", serif;
+    font-weight:normal;
+    font-size:3em;
+}
+
+
+#container2 .container2-list {
+    display: flex;
+    flex-direction: row;
+    justify-content:center;
+    gap:50px;
+}
+
+#container2 .box {
+    border:3px solid;
+    border-color:#CBB9E3;
+    width:40%;
+    overflow:hidden;
+    max-height:300px; 
+    border-radius:25px;  
+    position:relative; 
+    box-shadow: 0 3000px rgba(233, 242, 182, 0.4) inset;
+}
+
+#container2 .box img {
+    width:100%;
+    height:50px;
+    opacity:20%;
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+}
+
+
+#container2 .box a {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-decoration:none;
+    color:black;
+    font-family:"Playfair Display", serif;
+    font-size:1.5em;
+    justify-content: center;
+    text-align:center;
+    padding:10px;
+}
+
+#container3 {
+    height:auto;
+    position:relative;
+    padding:10px;
+    background-color:#E9EEC4;
+    margin:auto;
+    margin-bottom:50px;
+}
+
+#container3 .content {
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    gap:30px;
+    padding:20px;
+}
+
+#container3 .box {
+    background-color: white;
+    width:80%;
+    padding:50px;
+    font-family:"Manrope", serif;
+    border-radius: 10px 100px / 120px;
+}
+
+#container3 h2 {
+    color:black;
+    font-weight:normal;
+    text-align:center;
+}
+
+#container3 .button {
+    background-color: azure;
+    border-radius: 15px;
+    color: black;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    margin: 4px 2px;
+    cursor: pointer;
+    font-family:"Manrope", serif;
+    box-shadow: 0 9px lightgrey;
+  }
+
+#container3 .button:hover {
+    background-color: lightblue;
+    color:black;
+}
+
+#container3 .button:active {
+  box-shadow: 0 5px #666;
+  transform: translateY(4px);
+  transition:0s;
 }
