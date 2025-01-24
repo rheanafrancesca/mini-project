@@ -137,11 +137,10 @@ div.bio img {
     height:500px;
 }
 
-div.bio h1 {
+div.bio h1, #container4 h1 {
     font-family:"Playfair Display", serif;
-    font-size: 4.5rem;
+    font-size: 4rem;
     font-weight:normal;
-    display:inline;
     color:#926FC5;
 }
 
@@ -325,3 +324,41 @@ footer {
   transform: translateY(4px);
   transition:0s;
 }
+
+#container4 {
+    height:auto;
+    position:relative;
+    width:90%;
+    padding:40px;
+    margin:auto;
+}
+
+#container4 {
+    font-family:"Manrope",serif;
+}
+
+#timeline {
+    display:flex;
+    flex-direction: column;
+    padding:30px;
+    gap:75px;
+}
+
+#timeline h2 {
+    color:black;
+}
+
+#timeline .timeline-container {
+    display:flex;
+    flex-direction:row;
+    align-items: center;
+    gap:75px;
+}
+
+.circle {
+    min-width: 140px;
+    height: 140px;
+    border-radius:50%;
+    background-color: #E9EEC4;
+    position: relative;
+  }
