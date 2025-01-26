@@ -352,7 +352,7 @@ footer {
     display:flex;
     flex-direction:row;
     align-items: center;
-    gap:75px;
+    gap:50px;
 }
 
 .circle {
@@ -361,4 +361,4 @@ footer {
     border-radius:50%;
     background-color: #E9EEC4;
     position: relative;
-  }
+}
