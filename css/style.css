@@ -362,3 +362,55 @@ footer {
     background-color: #E9EEC4;
     position: relative;
 }
+
+#subcontent2 {
+    display:flex;
+    flex-direction:row;
+    gap:40px;
+    align-items:center;
+    padding:40px 0 40px 0;
+    border-top: 2px solid transparent;
+    border-bottom:  2px solid transparent;
+    border-image: linear-gradient(0.25turn, #f2b6f1, #E9EEC4, #78a1e3);
+    border-image-slice: 1;
+}
+
+#subcontent2 .gr_grid_container {
+  /* customize grid container div here. eg: width: 500px; */
+  max-width:100%;
+  width:500px;
+  padding:30px;
+  border:3px outset #CBB9E3;
+  background-color: azure;
+}
+
+#subcontent2 .gr_grid_book_container {
+  /* customize book cover container div here */
+  float: left;
+  width: 98px;
+  height: 160px;
+  padding: 0px 0px;
+  overflow: hidden;
+}
+
+#subcontent3 {
+    padding-top:30px;
+}
+
+#subcontent3 .gallery {
+    margin:auto;
+    display:grid;
+    grid-template-columns: repeat(3, 33.33%);
+    grid-template-rows: repeat(3, 33.33%);
+    background-color:#CBB9E3;
+    justify-items: center;
+    align-items: center;
+    width:80%;
+    padding:10px;
+}
+
+#subcontent3 .gallery img {
+    max-width:90%;
+    height:auto;
+    padding:10px;
+}
