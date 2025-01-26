@@ -363,6 +363,19 @@ footer {
     position: relative;
 }
 
+#subcontent1 .videos {
+    background-color: #E9EEC4;
+    width:70%;
+    height:auto;
+    padding:30px;
+    margin: 20px auto 40px auto;
+    border-radius:25px;
+    justify-content: center;
+    display:flex;
+    flex-direction: row;
+    gap:15px;
+}
+
 #subcontent2 {
     display:flex;
     flex-direction:row;
