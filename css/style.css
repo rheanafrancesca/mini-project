@@ -120,6 +120,7 @@ nav li a:hover, .dropdown:hover .dropbtn,  #container2 .subcontent .box a:hover{
     text-decoration: none;
     display: fixed;
     text-align: center;
+    line-height:30px;
 }
 
 div.bio .content {
@@ -208,7 +209,7 @@ footer {
     margin:auto;
 }
 
-#container2 .content{
+#container2 .content, #container4 .project {
     padding:60px;
     display:flex;
     flex-direction: column;
@@ -433,4 +434,8 @@ footer {
     -ms-transform: scale(1.05);
     transform: scale(1.05);
     transition: 0.3s ease;
+}
+
+#container4 .project h2{
+    color:black;
 }
