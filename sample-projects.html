@@ -27,13 +27,65 @@
 
     <div id="container4">
         <h1>Sample Projects</h1>
+        
+        <section class="slider-wrapper">
 
-        <div class="project">
-            <h2>Project Name</h2>
-            <p>During my co-op at Virogin Biotech, I developed an Excel template that generated graphs that modelled tumour growth in mice. Using this template, daily tumour size measurements could be inputted into the Excel sheet to generate a spider plot for their in vivo studies. 
-                <br><br>
-                Models generated from the template were included in their 2023 publication “Prophylactic Vaccination and Intratumoral Boost with HER2-Expressing Oncolytic Herpes Simplex Virus Induces Robust and Persistent Immune Response against HER2-Positive Tumor Cells” (as seen in right figure). </p>
-        </div>
+            <button class="slide-arrow" id="slide-arrow-prev">
+                &#8592;
+            </button>
+
+            <button class="slide-arrow" id="slide-arrow-next">
+                &#8594;
+            </button>
+
+            <ul class="slides-container" id="slides-container">
+                <li class="slide">
+                    <div class="project">
+                        <div class="text">
+                            <h2>Stroke Prediction App</h2>
+                            <h3>CMPT 340 (Fall 2023)</h3>
+                            <p>In the course CMPT 340: Biomedical Computing, our final group project involved creating a Stroke Prediction App using Python. We applied five different machine learning models to a stroke prediction dataset and after evaluation, developed an app called StrokeWatch which would determine an individual’s stroke risk.</p>    
+                        </div>
+                        <div class="attachment">
+                            <iframe width="500px" height="300px" src="https://www.youtube.com/embed/5KdVeHabZSk?si=jvLzT1wx1_HrHMO5">
+                            </iframe>
+                        </div>
+                    </div>
+
+                </li>
+
+                <li class="slide">
+                    <div class="project">
+                        <div class="text">
+                            <h2>Tumor Growth Models</h2>
+                            <h3>Virogin Biotech Research Assistant Co-op (Spring 2021 - Summer 2021)</h3>
+                            <p>During my co-op at Virogin Biotech, I developed an Excel template that generated graphs that modelled tumour growth in mice. Using this template, daily tumour size measurements could be inputted into the Excel sheet to generate a spider plot for their in vivo studies. 
+                                <br><br>
+                                Models generated from the template were included in their 2023 publication “Prophylactic Vaccination and Intratumoral Boost with HER2-Expressing Oncolytic Herpes Simplex Virus Induces Robust and Persistent Immune Response against HER2-Positive Tumor Cells”. 
+                            </p>
+                        </div>
+                        <div class="attachment">
+                            <img height="500px" src="images/spiderplot.jpg" alt="tumour growth spiderplots">
+                        </div>
+                    </div>
+                </li>
+
+                <li class="slide">
+                    <div class="project">
+                        <div class="text">
+                            <h2>Language Learning App</h2>
+                            <h3>CMPT 120 (Fall 2020)</h3>
+                            <p>In the course CMPT 120: Introduction to Computing Science and Programming I, I developed a Blackfoot language learning app using Python on the replit platform for my final project and received an A as my final grade.</p>
+                        </div>
+                        <div class="attachment">
+                            <img height="500px" src="images/language-app.jpg" alt="language app screenshot">
+                        </div>
+                    </div>
+                </li>
+            </ul>
+
+        </section>
+
     </div>
     
 
@@ -43,5 +95,8 @@
             
         </footer>
     </div>
+        
+    <script src="script.js"></script>
+
 </body>
 </html>
